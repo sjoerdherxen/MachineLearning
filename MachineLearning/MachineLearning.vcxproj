@@ -111,10 +111,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Network.h" />
+    <ClInclude Include="NearalNetwork\Layer.h" />
+    <ClInclude Include="NearalNetwork\Network.h" />
+    <ClInclude Include="NearalNetwork\Node.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Network.cpp" />
+    <ClCompile Include="NearalNetwork\Layer.cpp" />
+    <ClCompile Include="NearalNetwork\Network.cpp" />
+    <ClCompile Include="NearalNetwork\Node.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
