@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{D39E50D8-02E2-434B-A515-EF75EE6F5478}</ProjectGuid>
-    <RootNamespace>MachineLearning</RootNamespace>
+    <ProjectGuid>{F10F8A55-3EA9-4649-8D9A-EC04B846F9BC}</ProjectGuid>
+    <RootNamespace>Samples</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -111,10 +111,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Network.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Network.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
